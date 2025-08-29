@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ME Desafio</string>
+    <string name="app_logo">CosmoID</string>
+    <string name="astronaut">astronauta em um foguete acenando</string>
+    <string name="ready">Pronto para decolar?</string>
+    <string name="user_email">Nome de usuário ou email</string>
+    <string name="password">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="register">Cadastrar-se</string>
+    <string name="email">E-mail</string>
+    <string name="btnBack">botão para voltar</string>
+    <string name="bntLogin">botão para entrar</string>
+    <string name="btnRegister">Botão para se cadastrar-se</string>
+    <string name="conclude">Concluir</string>
+    <string name="btnRegisterConclude">Concluir cadastro</string>
+    <string name="btnLogout">botão para deslogar</string>
+    <string name="login_require">Digite seu cadastro ou crie um para entrar</string>
+    <string name="register_text">Digite as informações para se cadastrar</string>
+    <string name="user">Nome de usuário</string>
+    <string name="passwordVerification">Confirmar senha</string>
+    <string name="main_img_description">Foguete e astronauta no espaço, com estrelas a sua volta</string>
+    <string name="main_title">Estamos a todo vapor!</string>
+    <string name="main_sub_title">Se segure firme XX</string>
+    <string name="main_email">Seu email cadastrado é:</string>
+    <string name="main_logout">Caso quera pousar, aperte no botão de logout</string>
+    <string name="register_description">dois astronautas se encontrando no espaço, com estrelas e a lua a sua volta</string>
+</resources>

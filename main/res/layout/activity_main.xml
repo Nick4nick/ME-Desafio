@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/universe_background_main"
+    android:padding="15dp">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_alignParentEnd="true"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logout"
+        android:contentDescription="@string/btnLogout"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleX="2.3"
+        android:scaleY="2.3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/btnBack"
+        android:layout_above="@+id/txtlogout"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/main_img_description"
+            android:src="@drawable/astronaut_space"
+            android:scaleX="1.2"
+            android:scaleY="1.2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_title"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/txtUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_sub_title"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="@color/white"
+            android:textSize="23sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/main_email"
+            android:fontFamily="@font/quicksand"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text=""
+            android:fontFamily="@font/quicksand"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtlogout"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/main_logout"
+        android:textSize="15sp"
+        android:fontFamily="@font/quicksand"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

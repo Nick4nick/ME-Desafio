@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/universe_background"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/astronaut"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/astronaut" />
+
+        <TextView
+            android:text="@string/ready"
+            android:fontFamily="@font/quicksand_medium"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/login_require"
+            android:fontFamily="@font/quicksand"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:background="@drawable/background_login"
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/person"
+                android:drawablePadding="10dp"
+                android:hint="@string/user_email"
+                android:autofillHints="username"
+                android:inputType="textNoSuggestions"
+                android:background="@drawable/edt_login"
+                android:padding="12dp"
+                android:textColor="@color/white"
+                android:textColorHint="#D3BFF7"
+                android:textCursorDrawable="@drawable/cursor"
+                android:layout_marginBottom="15dp"/>
+
+            <EditText
+                android:id="@+id/edtSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:hint="@string/password"
+                android:autofillHints="password"
+                android:inputType="textPassword"
+                android:background="@drawable/edt_login"
+                android:padding="12dp"
+                android:textColor="@color/white"
+                android:textColorHint="#D3BFF7"
+                android:textCursorDrawable="@drawable/cursor"
+                android:layout_marginBottom="25dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/bntLogin"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:fontFamily="@font/quicksand_bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_login"
+                android:layout_marginBottom="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/btnRegister"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:fontFamily="@font/quicksand_bold"
+                app:backgroundTint="@null"
+                android:background="@drawable/btn_login"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
